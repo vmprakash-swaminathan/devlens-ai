@@ -1,0 +1,107 @@
+.background{
+
+    position:fixed;
+
+    inset:0;
+
+    z-index:-1;
+
+    overflow:hidden;
+
+    background:#070B14;
+
+}
+
+.orb1{
+
+    position:absolute;
+
+    width:500px;
+
+    height:500px;
+
+    background:#7C5CFF;
+
+    filter:blur(180px);
+
+    opacity:.28;
+
+    border-radius:50%;
+
+    top:-100px;
+
+    left:-100px;
+
+    animation:float1 12s ease-in-out infinite;
+
+}
+
+.orb2{
+
+    position:absolute;
+
+    width:400px;
+
+    height:400px;
+
+    background:#00D9FF;
+
+    filter:blur(180px);
+
+    opacity:.20;
+
+    border-radius:50%;
+
+    bottom:-100px;
+
+    right:-100px;
+
+    animation:float2 15s ease-in-out infinite;
+
+}
+
+.grid{
+
+    position:absolute;
+
+    inset:0;
+
+    background-image:
+    linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);
+
+    background-size:40px 40px;
+
+}
+
+@keyframes float1{
+
+0%,100%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(70px);
+
+}
+
+}
+
+@keyframes float2{
+
+0%,100%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-60px);
+
+}
+
+}

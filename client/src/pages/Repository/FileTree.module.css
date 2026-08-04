@@ -1,0 +1,52 @@
+.tree{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    margin-top:20px;
+    overflow-y:auto;
+    max-height:75vh;
+}
+
+.item{
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+    padding:10px 14px;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+    color:#E5E7EB;
+
+    font-size:14px;
+
+}
+
+.item:hover{
+
+    background:#1F2430;
+
+}
+
+.icon{
+
+    color:#32C2BF;
+
+    min-width:18px;
+
+}
+
+.item span{
+
+    overflow:hidden;
+
+    text-overflow:ellipsis;
+
+    white-space:nowrap;
+
+}

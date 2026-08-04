@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@import "./variables.css";
+
+@import "./reset.css";
+
+body{
+
+font-family:"Inter",sans-serif;
+
+background:var(--bg);
+
+color:var(--text);
+
+}
+
+#root{
+
+min-height:100vh;
+
+}
+
+.container{
+
+width:min(1400px,92%);
+
+margin:auto;
+
+}

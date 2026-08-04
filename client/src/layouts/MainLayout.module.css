@@ -1,0 +1,41 @@
+.layout{
+
+    display:flex;
+
+    background:#F5F7FB;
+
+    min-height:100vh;
+
+}
+
+.main{
+
+    margin-left:270px;
+
+    width:calc(100% - 270px);
+
+}
+
+.content{
+
+    padding:35px;
+
+}
+
+@media(max-width:900px){
+
+.main{
+
+margin-left:85px;
+
+width:calc(100% - 85px);
+
+}
+
+.content{
+
+padding:20px;
+
+}
+
+}

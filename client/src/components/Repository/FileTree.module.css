@@ -1,0 +1,128 @@
+.treeContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.treeHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.treeTitle {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #9ca3af;
+}
+
+.fileCount {
+  font-size: 12px;
+  background: rgba(50, 194, 191, 0.15);
+  color: #32c2bf;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.treeList {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  overflow-y: auto;
+  flex: 1;
+  padding-right: 4px;
+}
+
+.treeList::-webkit-scrollbar {
+  width: 4px;
+}
+
+.treeList::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  color: #d1d5db;
+  font-size: 13px;
+  user-select: none;
+}
+
+.item:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+}
+
+.selected {
+  background: rgba(50, 194, 191, 0.15) !important;
+  color: #32c2bf !important;
+  font-weight: 500;
+}
+
+.chevron {
+  font-size: 12px;
+  color: #6b7280;
+  transition: transform 0.2s ease;
+}
+
+.chevronOpen {
+  transform: rotate(90deg);
+}
+
+.icon {
+  font-size: 16px;
+  min-width: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.folderIcon {
+  color: #f59e0b;
+}
+
+.jsIcon {
+  color: #f7df1e;
+}
+
+.cssIcon {
+  color: #38bdf8;
+}
+
+.htmlIcon {
+  color: #f97316;
+}
+
+.jsonIcon {
+  color: #a855f7;
+}
+
+.defaultIcon {
+  color: #32c2bf;
+}
+
+.fileName {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.fileSize {
+  font-size: 11px;
+  color: #6b7280;
+  margin-left: auto;
+}

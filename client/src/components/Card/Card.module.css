@@ -1,0 +1,15 @@
+.card{
+
+    background:white;
+
+    border-radius:22px;
+
+    padding:32px;
+
+    border:1px solid #E8EDF3;
+
+    box-shadow:
+
+    0 10px 30px rgba(15,23,42,.08);
+
+}

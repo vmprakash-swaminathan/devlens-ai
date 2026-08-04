@@ -1,0 +1,73 @@
+.card{
+
+    background:white;
+
+    border-radius:22px;
+
+    padding:28px;
+
+    box-shadow:0 10px 25px rgba(15,23,42,.06);
+
+    border:1px solid #E8EDF3;
+
+}
+
+.card h3{
+
+    margin-bottom:24px;
+
+    color:#1F2937;
+
+}
+
+.item{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 0;
+
+    border-bottom:1px solid #EEF2F7;
+
+}
+
+.item:last-child{
+
+    border-bottom:none;
+
+}
+
+.item h4{
+
+    font-size:16px;
+
+    margin-bottom:6px;
+
+}
+
+.item p{
+
+    color:#7A8797;
+
+    font-size:14px;
+
+}
+
+.item span{
+
+    background:#ECFDFC;
+
+    color:#32C2BF;
+
+    padding:6px 12px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+    font-weight:600;
+
+}

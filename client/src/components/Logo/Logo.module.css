@@ -1,0 +1,51 @@
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.icon{
+    width:42px;
+    height:42px;
+    border-radius:12px;
+    background:linear-gradient(135deg,#32C2BF,#315BFF);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0 8px 20px rgba(50,194,191,.25);
+}
+
+.dot{
+    width:12px;
+    height:12px;
+    border-radius:50%;
+    background:white;
+}
+
+.text{
+    display:flex;
+    align-items:baseline;
+    gap:4px;
+}
+
+.dev{
+    font-size:28px;
+    font-weight:800;
+    color:#1F2937;
+}
+
+.lens{
+    font-size:28px;
+    font-weight:800;
+    color:#315BFF;
+}
+
+.ai{
+    margin-left:8px;
+    padding:4px 10px;
+    border-radius:999px;
+    background:#E8F8F8;
+    color:#32C2BF;
+    font-size:13px;
+    font-weight:700;
+}
