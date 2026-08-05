@@ -1,5 +1,8 @@
 # 🚀 DevLens AI – Intelligent Codebase Analysis & Architecture Platform
 
+[![Live Application](https://img.shields.io/badge/🌐_Live_Demo-Vercel_Deployment-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://devlens-ai.vercel.app)
+[![API Server](https://img.shields.io/badge/⚙️_API_Backend-Render_Live-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://devlens-ai-85mz.onrender.com/api/health)
+
 > **DevLens AI** is an end-to-end repository intelligence platform designed to eliminate codebase onboarding friction, automate software auditing, and provide deep architectural insights into complex software projects.
 
 ---
