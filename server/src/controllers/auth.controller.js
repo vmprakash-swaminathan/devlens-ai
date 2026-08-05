@@ -47,7 +47,7 @@ AuthController.register = async (req, res) => {
 
         return res.status(500).json({
             success: false,
-            message: "Internal Server Error."
+            message: error.message || "Internal Server Error."
         });
     }
 };
@@ -81,12 +81,14 @@ AuthController.login = async (req, res) => {
             });
         }
 
+        const secretKey = process.env.JWT_SECRET || "devlens_ai_jwt_secret_key_2026";
+
         const token = jwt.sign(
             {
                 userId: user.user_id,
                 email: user.email
             },
-            process.env.JWT_SECRET,
+            secretKey,
             {
                 expiresIn: "7d"
             }
@@ -108,7 +110,7 @@ AuthController.login = async (req, res) => {
 
         return res.status(500).json({
             success: false,
-            message: "Internal Server Error."
+            message: error.message || "Internal Server Error."
         });
     }
 };
@@ -134,7 +136,7 @@ AuthController.profile = async (req, res) => {
 
         return res.status(500).json({
             success: false,
-            message: "Internal Server Error."
+            message: error.message || "Internal Server Error."
         });
     }
 };
